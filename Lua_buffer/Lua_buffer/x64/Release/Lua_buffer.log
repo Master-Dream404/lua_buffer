@@ -1,0 +1,16 @@
+﻿  pch.cpp
+  dllmain.cpp
+dllmain.obj : error LNK2001: unresolved external symbol luaopen_base
+dllmain.obj : error LNK2001: unresolved external symbol luaopen_table
+dllmain.obj : error LNK2001: unresolved external symbol luaopen_string
+dllmain.obj : error LNK2001: unresolved external symbol luaopen_math
+dllmain.obj : error LNK2001: unresolved external symbol luaopen_debug
+dllmain.obj : error LNK2001: unresolved external symbol luaopen_coroutine
+dllmain.obj : error LNK2001: unresolved external symbol luaopen_utf8
+dllmain.obj : error LNK2001: unresolved external symbol luaL_newstate
+dllmain.obj : error LNK2001: unresolved external symbol "void __cdecl lua_close(struct lua_State *)" (?lua_close@@YAXPEAUlua_State@@@Z)
+dllmain.obj : error LNK2001: unresolved external symbol luaL_requiref
+dllmain.obj : error LNK2001: unresolved external symbol "void __cdecl lua_settop(struct lua_State *,int)" (?lua_settop@@YAXPEAUlua_State@@H@Z)
+dllmain.obj : error LNK2001: unresolved external symbol luaL_loadbufferx
+dllmain.obj : error LNK2001: unresolved external symbol "char const * __cdecl lua_tolstring(struct lua_State *,int,unsigned __int64 *)" (?lua_tolstring@@YAPEBDPEAUlua_State@@HPEA_K@Z)
+F:\video_hook\Lua_buffer\x64\Release\Lua_buffer.dll : fatal error LNK1120: 13 unresolved externals
