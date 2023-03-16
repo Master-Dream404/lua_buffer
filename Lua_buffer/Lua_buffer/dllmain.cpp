@@ -35,11 +35,6 @@
 #endif
 #endif
 
-
-
-#include <m_includes/json/json.hpp>
-using json = nlohmann::json;
-
 static const luaL_Reg lualibs[] = {
     { "_G", luaopen_base },
     { LUA_TABLIBNAME, luaopen_table },
